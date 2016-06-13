@@ -45,24 +45,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand dark-text" href="#page-top">RJM</a>
+                <a class="page-scroll navbar-brand dark-text" href="#page-top">RJM</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a class="dark-text" href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a class="dark-text" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a class="dark-text" href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a class="dark-text" href="#contact">Contact</a>
-                    </li>
+                    <li class="hidden"><a class="page-scroll dark-text" href="#page-top"></a></li>
+                    <li><a class="page-scroll dark-text" href="#portfolio">Portfolio</a></li>
+                    <li><a class="page-scroll dark-text" href="#about">About</a></li>
+                    <li><a class="page-scroll dark-text" href="#resume">Resume/CV</a></li>
+                    <li><a class="page-scroll dark-text" href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -79,7 +72,18 @@
                     <div class="intro-text">
                         <span class="name">Ryan McGill</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Electrical Engineer - Musician</span>
+                        <span class="skills">Full-Stack Web Developer - Electrical Engineer - Musician</span>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://twitter.com/ryanjamesmcgill" class="btn-header btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/ryanjamesmcgill" class="btn-header btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ryanjamesmcgill" class="btn-header btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -117,6 +121,18 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal_vote-app" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/vote-app.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal_simon-game" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -124,16 +140,6 @@
                             </div>
                         </div>
                         <img src="img/simon-game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal_calcul8r" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/calcul8r.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -171,11 +177,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Hello! I’m Ryan McGill, as an Electrical Engineer at <a href="https://www.linkedin.com/in/ryanjamesmcgill#experience" target="_blank">Samsung Austin Semiconductor</a> I discovered my passion for software engineering when I started developing custom web applications to improve my team's toolset. I am currently building competencies in full-stack web development through a combination of independent projects, <a href="https://www.hackerrank.com/" target="_blank">hackerrank</a>, and the <a href="https://www.freecodecamp.com/" target="_blank">freecodecamp.com</a> curriculum.
+                    <p>Hello! I’m Ryan McGill, as an Electrical Engineer at <a href="https://www.linkedin.com/in/ryanjamesmcgill#experience" target="_blank">Samsung Austin Semiconductor</a> I discovered my passion for software engineering when I started developing custom web applications to improve my team's tool set. I am currently seeking employment as a full-stack web developer where I will be challenged to learn new technologies, maintain current applications, and develop new solutions to improve business efficiency and automation.
                     </p>
                 </div>
                 <div class="col-lg-4">
-                    <p>In addition to software development, I enjoy writing and recording music in Austin, TX. You can listen to my bands album <a href="http://littlelo.bandcamp.com/" target="_blank">here</a>. Below is a video of my presentation last year at the <a href="https://www.juce.com/juce-summit-2015" target="_blank">2015 Juce Summit</a> on a musical instrument I developed with C++ on an embedded linux platform.
+                    <p>In addition to software development, I enjoy writing and recording music. You can listen to my bands album <a href="http://littlelo.bandcamp.com/" target="_blank">here</a>. Often, my 'fun' projects involve an intersection of music and technology. For example, below is a video of my presentation last year at the <a href="https://www.juce.com/juce-summit-2015" target="_blank">2015 Juce Summit</a> on a musical instrument I developed with C++ on an embedded linux platform.
                     </p>
                 </div>
             </div>
@@ -190,18 +196,37 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resume / CV</h2>
+                    <hr class="star-primary">
+                    <a href="resume/ryanmcgill_resume.pdf" download><button class="btn btn-primary btn-resume">Download Resume PDF</button></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="success" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Me</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <p>
-                        Thanks for your interest! Please <a href="mailto:ryanjamesmcgill@gmail.com">email me</a> for any inquiries regarding employment, contract work, or the projects on this site.
+                        Thank you for your interest! Please <a href="mailto:ryanjamesmcgill@gmail.com">email me</a> for any inquiries regarding employment, contract work, or the projects on this site.
                     </p>
                     <p>
                         <address>
@@ -242,7 +267,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Email</h3>
-                        <a href="mailto:ryanjamesmcgill@gmail.com">ryanjamesmcgill@gmail.com</a>
+                        <a href="mailto:ryanjamesmcgill@gmail.com"><h5 href="mailto:ryanjamesmcgill@gmail.com">ryanjamesmcgill@gmail.com</h5></a>
                     </div>
                 </div>
             </div>
@@ -258,12 +283,6 @@
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
 
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal_worklist-generator" tabindex="-1" role="dialog" aria-hidden="true">
@@ -383,6 +402,54 @@
                             <br>
                             <strong>Play here: </strong>
                             <a href="http://ryanjamesmcgill.github.io/simon-game/" target="_blank">http://ryanjamesmcgill.github.io/simon-game/</a>
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="https://www.freecodecamp.com/">freecodecamp.com</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="#">May 2016</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="#">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal_vote-app" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Vote'r: a full-stack voting app</h2>
+                            <hr class="star-primary">
+                            <a href="https://github.com/ryanjamesmcgill/vote-app" target="_blank">
+                                <img src="img/vote-app.png" class="img-responsive img-centered" alt="">
+                            </a>
+                            <p>
+                                Vote'r : A MongoDB / Express / React / Node (MERN) based voting app
+                                <br>
+                                <strong>Source: </strong>
+                                <a href="https://github.com/ryanjamesmcgill/vote-app" target="_blank">
+                                    github.com/ryanjamesmcgill/vote-app</a>
+                                <br>
+                                <strong>Live Demo: </strong>
+                                <a href="https://voter-rjm.herokuapp.com/" target="_blank">https://voter-rjm.herokuapp.com/</a>
                             </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -545,10 +612,13 @@
     </div>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/agency.js"></script>
 
 </body>
 

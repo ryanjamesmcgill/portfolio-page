@@ -1,5 +1,5 @@
 .navbar {
-	background-color: #C1FFEA
+	background-color: #C1FFEA;
 }
 
 .navbar-brand.dark-text{
@@ -90,7 +90,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #AAA;
-    background-color: #DBDBDB;
+    background-color: #F2F2F2;
 }
 
 hr.star-primary {
@@ -109,7 +109,7 @@ hr.star-primary:after {
 header {
 	text-align: center;
     color: #1A1A1A;
-    background: #DBDBDB;
+    background: #F2F2F2;
 }
 
 header .container {
@@ -194,7 +194,10 @@ header .intro-text .skills {
 
 .navbar-default,
 .navbar-inverse {
-    border: 0;
+    border-bottom: 1px solid #C7E9DE;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 }
 
 section {
@@ -208,7 +211,7 @@ section h2 {
 
 section.success {
     color: #1A1A1A;
-    background: #DBDBDB;
+    background: #F2F2F2;
 }
 
 section.success a,
@@ -243,6 +246,7 @@ section.success a.active {
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
+    border-radius: 10px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -286,6 +290,16 @@ section.success a.active {
         margin: 0 0 30px;
     }
 }
+
+.btn-resume{
+    margin-top: 20px;
+}
+
+a.btn-header{
+    border: solid 2px #777;
+    color: #777;
+}
+
 
 .btn-outline {
     margin-top: 15px;
